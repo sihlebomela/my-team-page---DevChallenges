@@ -38,7 +38,9 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
-    align-items: baseline;    
+    margin-bottom: 100px;
+    align-items: baseline;
+    max-width: 800px;    
     .about {
         margin: 38px 0 100px 0px;
         font-family: 'Poppins', sans-serif;
