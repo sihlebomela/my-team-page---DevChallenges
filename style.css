@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 550px) {
+  .member:nth-of-type(2), .member:nth-of-type(5) {
+    transform: translateY(3rem) !important;
+  }
+
+  .top-content {
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .top-content .about {
+    margin: 38px 0 100px 30px !important;
+  }
+  .top-content .about p {
+    max-width: 400px !important;
+  }
+}
+html, body {
+  font-family: "PT Serif", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0 1rem;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: baseline;
+}
+.top-content .about {
+  margin: 38px 0 100px 0px;
+  font-family: "Poppins", sans-serif;
+}
+.top-content .about h3 {
+  text-transform: uppercase;
+}
+
+.crew {
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.crew .member {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  margin: 1.5rem 1rem;
+}
+.crew .member .role {
+  align-self: flex-end;
+  margin-bottom: -4rem;
+  margin-right: -3.8rem;
+  rotate: 90deg;
+}
+.crew .member img {
+  width: 100%;
+  max-width: 150px;
+}
+.crew .member .name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.member:nth-of-type(1), .member:nth-of-type(3), .member:nth-of-type(5) {
+  transform: translateY(-4rem);
+}
+
+.attribution {
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 3rem;
+}
+.attribution a {
+  color: #838383;
+}/*# sourceMappingURL=style.css.map */
